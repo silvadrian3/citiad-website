@@ -1,0 +1,60 @@
+{
+  "services": [{
+        "id": 1,
+        "name": "LARGE FORMAT PRINTING",
+        "code": "S1LFP",
+        "description": "We can output your design at incredible width and unlimited length. With our state of the art printers, outputting unparalled details, the image will explode off the surface in vibrant color, delivering your message every time.",
+        "image": {
+            "id": 21,
+            "url": "https://s3-ap-southeast-1.amazonaws.com",
+            "location": "/quisi/citiad/services/",
+            "loc_url":"http://localhost",
+            "loc_base_dir":"/citiad-assets/s3",
+            "loc_src_dir":"/services/",
+            "filename": "large-format-printing.jpg"
+        }
+      
+    }, {
+        "id": 2,
+        "name": "CORPORATE GIVEAWAYS",
+        "code": "S2CG",
+        "description": "The best corporate gifts and give-aways to help communicate your brand's message. It's a proven tactic for word of mouth marketing.Name it and we will source it out for you.",
+        "image": {
+            "id": 22,
+            "url": "https://s3-ap-southeast-1.amazonaws.com",
+            "location": "/quisi/citiad/services/",
+            "loc_url":"http://localhost",
+            "loc_base_dir":"/citiad-assets/s3",
+            "loc_src_dir":"/services/",
+            "filename": "corporate-give-aways.jpg"
+        }
+    }, {
+        "id": 3,
+        "name": "DIGITAL / OFFSET PRINTING",
+        "code": "S3DOP",
+        "description": "development can provide you great results on your short run project with our \"print on demand\" scheme, using digital process or your volume needs using offset procedures. We can help you with your designs or concepts put into reality.",
+        "image": {
+            "id": 23,
+            "url": "https://s3-ap-southeast-1.amazonaws.com",
+            "location": "/quisi/citiad/services/",
+            "loc_url":"http://localhost",
+            "loc_base_dir":"/citiad-assets/s3",
+            "loc_src_dir":"/services/",
+            "filename": "digital_offset-printing.jpg"
+        }
+    },{
+        "id": 4,
+        "name": "EXHIBIT DISPLAYS",
+        "code": "S4ED",
+        "description": "Be noticed. We offer every imaginable component for your exhibit display.",
+        "image": {
+            "id": 24,
+            "url": "https://s3-ap-southeast-1.amazonaws.com",
+            "location": "/quisi/citiad/services/",
+            "loc_url":"http://localhost",
+            "loc_base_dir":"/citiad-assets/s3",
+            "loc_src_dir":"/services/",
+            "filename": "display-systems.jpg"
+        }
+    }]
+}

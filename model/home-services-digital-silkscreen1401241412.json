@@ -1,0 +1,286 @@
+[{
+        "id": 8,
+        "name": "Polo-Shirt",
+        "code": "",
+        "description": "",
+        "category_id": "",
+        "category": "Digital-Silkscreen Printing",
+        "image": {
+            "id": 8,
+            "url": "https://s3-ap-southeast-1.amazonaws.com",
+            "location": "/quisi/citiad/services/digital-silkscreen-printing/",
+            "filename": "polo-shirt.png",
+            "loc_url":"http://localhost",
+            "loc_base_dir":"/citiad-assets/s3",
+            "loc_src_dir":"/services"
+        }
+      },
+      {
+        "id": 9,
+        "name": "HJ-001",
+        "code": "",
+        "description": "",
+        "category_id": "",
+        "category": "Digital-Silkscreen Printing",
+        "image": {
+            "id": 9,
+            "url": "https://s3-ap-southeast-1.amazonaws.com",
+            "location": "/quisi/citiad/services/digital-silkscreen-printing/",
+            "filename": "HJ-001.png",
+            "loc_url":"http://localhost",
+            "loc_base_dir":"/citiad-assets/s3",
+            "loc_src_dir":"/services"
+        }
+      },
+      {
+        "id": 10,
+        "name": "HJ-002",
+        "code": "",
+        "description": "",
+        "category_id": "",
+        "category": "Digital-Silkscreen Printing",
+        "image": {
+            "id": 10,
+            "url": "https://s3-ap-southeast-1.amazonaws.com",
+            "location": "/quisi/citiad/services/digital-silkscreen-printing/",
+            "filename": "HJ-002.png",
+            "loc_url":"http://localhost",
+            "loc_base_dir":"/citiad-assets/s3",
+            "loc_src_dir":"/services"
+        }
+      },
+      {
+        "id": 11,
+        "name": "Lanyard",
+        "code": "",
+        "description": "",
+        "category_id": "",
+        "category": "Digital-Silkscreen Printing",
+        "image": {
+            "id": 11,
+            "url": "https://s3-ap-southeast-1.amazonaws.com",
+            "location": "/quisi/citiad/services/digital-silkscreen-printing/",
+            "filename": "lanyard.png",
+            "loc_url":"http://localhost",
+            "loc_base_dir":"/citiad-assets/s3",
+            "loc_src_dir":"/services"
+        }
+      },
+      {
+        "id": 12,
+        "name": "UM-001",
+        "code": "",
+        "description": "",
+        "category_id": "",
+        "category": "Digital-Silkscreen Printing",
+        "image": {
+            "id": 12,
+            "url": "https://s3-ap-southeast-1.amazonaws.com",
+            "location": "/quisi/citiad/services/digital-silkscreen-printing/",
+            "filename": "UM-001.png",
+            "loc_url":"http://localhost",
+            "loc_base_dir":"/citiad-assets/s3",
+            "loc_src_dir":"/services"
+        }
+      },
+      {
+        "id": 13,
+        "name": "UM-002",
+        "code": "",
+        "description": "",
+        "category_id": "",
+        "category": "Digital-Silkscreen Printing",
+        "image": {
+            "id": 13,
+            "url": "https://s3-ap-southeast-1.amazonaws.com",
+            "location": "/quisi/citiad/services/digital-silkscreen-printing/",
+            "filename": "UM-002.png",
+            "loc_url":"http://localhost",
+            "loc_base_dir":"/citiad-assets/s3",
+            "loc_src_dir":"/services"
+        }
+      },
+      {
+        "id": 14,
+        "name": "UM-003",
+        "code": "",
+        "description": "",
+        "category_id": "",
+        "category": "Digital-Silkscreen Printing",
+        "image": {
+            "id": 14,
+            "url": "https://s3-ap-southeast-1.amazonaws.com",
+            "location": "/quisi/citiad/services/digital-silkscreen-printing/",
+            "filename": "UM-003.png",
+            "loc_url":"http://localhost",
+            "loc_base_dir":"/citiad-assets/s3",
+            "loc_src_dir":"/services"
+        }
+      },
+      {
+        "id": 15,
+        "name": "C-001",
+        "code": "",
+        "description": "",
+        "category_id": "",
+        "category": "Digital-Silkscreen Printing",
+        "image": {
+            "id": 15,
+            "url": "https://s3-ap-southeast-1.amazonaws.com",
+            "location": "/quisi/citiad/services/digital-silkscreen-printing/",
+            "filename": "C-001.png",
+            "loc_url":"http://localhost",
+            "loc_base_dir":"/citiad-assets/s3",
+            "loc_src_dir":"/services"
+        }
+      },
+      {
+        "id": 16,
+        "name": "C-002.png",
+        "code": "",
+        "description": "",
+        "category_id": "",
+        "category": "Digital-Silkscreen Printing",
+        "image": {
+            "id": 16,
+            "url": "https://s3-ap-southeast-1.amazonaws.com",
+            "location": "/quisi/citiad/services/digital-silkscreen-printing/",
+            "filename": "C-002.png",
+            "loc_url":"http://localhost",
+            "loc_base_dir":"/citiad-assets/s3",
+            "loc_src_dir":"/services"
+        }
+      },
+      {
+        "id": 17,
+        "name": "V-Neck",
+        "code": "",
+        "description": "",
+        "category_id": "",
+        "category": "Digital-Silkscreen Printing",
+        "image": {
+            "id": 17,
+            "url": "https://s3-ap-southeast-1.amazonaws.com",
+            "location": "/quisi/citiad/services/digital-silkscreen-printing/",
+            "filename": "v-neck.png",
+            "loc_url":"http://localhost",
+            "loc_base_dir":"/citiad-assets/s3",
+            "loc_src_dir":"/services"
+        }
+      },
+      {
+        "id": 18,
+        "name": "Round-Neck",
+        "code": "",
+        "description": "",
+        "category_id": "",
+        "category": "Digital-Silkscreen Printing",
+        "image": {
+            "id": 18,
+            "url": "https://s3-ap-southeast-1.amazonaws.com",
+            "location": "/quisi/citiad/services/digital-silkscreen-printing/",
+            "filename": "round-neck.png",
+            "loc_url":"http://localhost",
+            "loc_base_dir":"/citiad-assets/s3",
+            "loc_src_dir":"/services"
+        }
+      },
+      {
+        "id": 19,
+        "name": "EB-001",
+        "code": "",
+        "description": "",
+        "category_id": "",
+        "category": "Digital-Silkscreen Printing",
+        "image": {
+            "id": 19,
+            "url": "https://s3-ap-southeast-1.amazonaws.com",
+            "location": "/quisi/citiad/services/digital-silkscreen-printing/",
+            "filename": "EB-001.png",
+            "loc_url":"http://localhost",
+            "loc_base_dir":"/citiad-assets/s3",
+            "loc_src_dir":"/services"
+        }
+      },
+      {
+        "id": 20,
+        "name": "EB-002",
+        "code": "",
+        "description": "",
+        "category_id": "",
+        "category": "Digital-Silkscreen Printing",
+        "image": {
+            "id": 20,
+            "url": "https://s3-ap-southeast-1.amazonaws.com",
+            "location": "/quisi/citiad/services/digital-silkscreen-printing/",
+            "filename": "EB-002.png",
+            "loc_url":"http://localhost",
+            "loc_base_dir":"/citiad-assets/s3",
+            "loc_src_dir":"/services"
+        }
+      },
+      {
+        "id": 21,
+        "name": "EB-003",
+        "code": "",
+        "description": "",
+        "category_id": "",
+        "category": "Digital-Silkscreen Printing",
+        "image": {
+            "id": 21,
+            "url": "https://s3-ap-southeast-1.amazonaws.com",
+            "location": "/quisi/citiad/services/digital-silkscreen-printing/",
+            "filename": "EB-003.png"
+        }
+      },
+      {
+        "id": 22,
+        "name": "OK-004",
+        "code": "",
+        "description": "",
+        "category_id": "",
+        "category": "Digital-Silkscreen Printing",
+        "image": {
+            "id": 22,
+            "url": "https://s3-ap-southeast-1.amazonaws.com",
+            "location": "/quisi/citiad/services/digital-silkscreen-printing/",
+            "filename": "OK-004.png",
+            "loc_url":"http://localhost",
+            "loc_base_dir":"/citiad-assets/s3",
+            "loc_src_dir":"/services"
+        }
+      },
+      {
+        "id": 23,
+        "name": "P-002",
+        "code": "",
+        "description": "",
+        "category_id": "",
+        "category": "Digital-Silkscreen Printing",
+        "image": {
+            "id": 23,
+            "url": "https://s3-ap-southeast-1.amazonaws.com",
+            "location": "/quisi/citiad/services/digital-silkscreen-printing/",
+            "filename": "P-002.png",
+            "loc_url":"http://localhost",
+            "loc_base_dir":"/citiad-assets/s3",
+            "loc_src_dir":"/services"
+        }
+      },
+      {
+        "id": 24,
+        "name": "AS-001",
+        "code": "",
+        "description": "",
+        "category_id": "",
+        "category": "Digital-Silkscreen Printing",
+        "image": {
+            "id": 24,
+            "url": "https://s3-ap-southeast-1.amazonaws.com",
+            "location": "/quisi/citiad/services/digital-silkscreen-printing/",
+            "filename": "AS-001.png",
+            "loc_url":"http://localhost",
+            "loc_base_dir":"/citiad-assets/s3",
+            "loc_src_dir":"/services"
+        }
+      }]

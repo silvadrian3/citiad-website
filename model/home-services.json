@@ -1,0 +1,226 @@
+{
+   "result":true,
+   "data":[
+      {
+        "id": 1,
+        "name": "Vehicle Wrap Sticker",
+        "code": "",
+        "description": "",
+        "category_id": 3,
+        "category": "Digital-Offset Printing",
+        "image": {
+            "id": 1,
+            "url": "https://s3-ap-southeast-1.amazonaws.com",
+            "location": "/quisi/citiad/services/digital-offset-printing/",
+            "filename": "vehicle-wrap-sticker.png",
+            "loc_url":"http://localhost",
+            "loc_base_dir":"/citiad-assets/s3",
+            "loc_src_dir":"/services/digital-offset-printing/"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Wall Sticker",
+        "code": "",
+        "description": "",
+        "category_id": 3,
+        "category": "Digital-Offset Printing",
+        "image": {
+            "id": 2,
+            "url": "https://s3-ap-southeast-1.amazonaws.com",
+            "location": "/quisi/citiad/services/digital-offset-printing/",
+            "filename": "wall-sticker.png",
+            "loc_url":"http://localhost",
+            "loc_base_dir":"/citiad-assets/s3",
+            "loc_src_dir":"/services/digital-offset-printing/"
+        }
+      },
+      {
+        "id": 3,
+        "name": "PVC ID",
+        "code": "",
+        "description": "",
+        "category_id": 3,
+        "category": "Digital-Offset Printing",
+        "image": {
+            "id": 3,
+            "url": "https://s3-ap-southeast-1.amazonaws.com",
+            "location": "/quisi/citiad/services/digital-offset-printing/",
+            "filename": "pvc-id.png",
+            "loc_url":"http://localhost",
+            "loc_base_dir":"/citiad-assets/s3",
+            "loc_src_dir":"/services/digital-offset-printing/"
+        }
+      },
+      {
+        "id": 4,
+        "name": "Brochure Flyers",
+        "code": "",
+        "description": "",
+        "category_id": 3,
+        "category": "Digital-Offset Printing",
+        "image": {
+            "id": 4,
+            "url": "https://s3-ap-southeast-1.amazonaws.com",
+            "location": "/quisi/citiad/services/digital-offset-printing/",
+            "filename": "brochure-flyers.png",
+            "loc_url":"http://localhost",
+            "loc_base_dir":"/citiad-assets/s3",
+            "loc_src_dir":"/services/digital-offset-printing/"
+        }
+      },
+      {
+        "id": 5,
+        "name": "Envelope",
+        "code": "",
+        "description": "",
+        "category_id": 3,
+        "category": "Digital-Offset Printing",
+        "image": {
+            "id": 5,
+            "url": "https://s3-ap-southeast-1.amazonaws.com",
+            "location": "/quisi/citiad/services/digital-offset-printing/",
+            "filename": "envelope.png",
+            "loc_url":"http://localhost",
+            "loc_base_dir":"/citiad-assets/s3",
+            "loc_src_dir":"/services/digital-offset-printing/"
+        }
+      },
+      {
+        "id": 6,
+        "name": "Calling Card",
+        "code": "",
+        "description": "",
+        "category_id": 3,
+        "category": "Digital-Offset Printing",
+        "image": {
+            "id": 6,
+            "url": "https://s3-ap-southeast-1.amazonaws.com",
+            "location": "/quisi/citiad/services/digital-offset-printing/",
+            "filename": "calling-card.png",
+            "loc_url":"http://localhost",
+            "loc_base_dir":"/citiad-assets/s3",
+            "loc_src_dir":"/services/digital-offset-printing/"
+        }
+      },
+      {
+        "id": 7,
+        "name": "Invitation Card",
+        "code": "",
+        "description": "",
+        "category_id": 3,
+        "category": "Digital-Offset Printing",
+        "image": {
+            "id": 7,
+            "url": "https://s3-ap-southeast-1.amazonaws.com",
+            "location": "/quisi/citiad/services/digital-offset-printing/",
+            "filename": "invitation-card.png",
+            "loc_url":"http://localhost",
+            "loc_base_dir":"/citiad-assets/s3",
+            "loc_src_dir":"/services/digital-offset-printing/"
+        }
+      },
+      {
+        "id": 25,
+        "name": "Revolving Light Box",
+        "code": "",
+        "description": "",
+        "category_id": 4,
+        "category": "Display System",
+        "image": {
+            "id": 25,
+            "url": "https://s3-ap-southeast-1.amazonaws.com",
+            "location": "/quisi/citiad/services/exhibit-display-system/",
+            "filename": "revolving-light-box.png",
+            "loc_url":"http://localhost",
+            "loc_base_dir":"/citiad-assets/s3",
+            "loc_src_dir":"/services/exhibit-display-system/"
+        }
+      },
+      {
+        "id": 26,
+        "name": "PUBS-002",
+        "code": "",
+        "description": "",
+        "category_id": 4,
+        "category": "Display System",
+        "image": {
+            "id": 26,
+            "url": "https://s3-ap-southeast-1.amazonaws.com",
+            "location": "/quisi/citiad/services/exhibit-display-system/",
+            "filename": "PUBS-002.png",
+            "loc_url":"http://localhost",
+            "loc_base_dir":"/citiad-assets/s3",
+            "loc_src_dir":"/services/exhibit-display-system/"
+        }
+      },
+      {
+        "id": 27,
+        "name": "Easel Stand",
+        "code": "",
+        "description": "",
+        "category_id": 4,
+        "category": "Display System",
+        "image": {
+            "id": 27,
+            "url": "https://s3-ap-southeast-1.amazonaws.com",
+            "location": "/quisi/citiad/services/exhibit-display-system/",
+            "filename": "easel-stand.png",
+            "loc_url":"http://localhost",
+            "loc_base_dir":"/citiad-assets/s3",
+            "loc_src_dir":"/services/exhibit-display-system/"
+        }
+      },
+      {
+        "id": 26,
+        "name": "X-001",
+        "code": "",
+        "description": "",
+        "category_id": 4,
+        "category": "Display System",
+        "image": {
+            "id": 26,
+            "url": "https://s3-ap-southeast-1.amazonaws.com",
+            "location": "/quisi/citiad/services/exhibit-display-system/",
+            "filename": "X-001.png",
+            "loc_url":"http://localhost",
+            "loc_base_dir":"/citiad-assets/s3",
+            "loc_src_dir":"/services/exhibit-display-system/"
+        }
+      },
+      {
+        "id": 27,
+        "name": "X-002",
+        "code": "",
+        "description": "",
+        "category_id": 4,
+        "category": "Display System",
+        "image": {
+            "id": 27,
+            "url": "https://s3-ap-southeast-1.amazonaws.com",
+            "location": "/quisi/citiad/services/exhibit-display-system/",
+            "filename": "X-002.png",
+            "loc_url":"http://localhost",
+            "loc_base_dir":"/citiad-assets/s3",
+            "loc_src_dir":"/services/exhibit-display-system/"
+        }
+      },
+      {
+        "id": 28,
+        "name": "Porta-Booth",
+        "code": "",
+        "description": "",
+        "category_id": 4,
+        "category": "Display System",
+        "image": {
+            "id": 28,
+            "url": "https://s3-ap-southeast-1.amazonaws.com",
+            "location": "/quisi/citiad/services/exhibit-display-system/",
+            "filename": "porta-booth.png",
+            "loc_url":"http://localhost",
+            "loc_base_dir":"/citiad-assets/s3",
+            "loc_src_dir":"/services/exhibit-display-system/"
+        }
+      }
+   ]
+}

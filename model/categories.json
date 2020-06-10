@@ -1,0 +1,30 @@
+{
+   "result":true,
+   "data":[
+      {
+         "id":"14",
+         "name":"Writing Instruments",
+         "description":""
+      },
+      {
+         "id":"17",
+         "name":"Drinkwares",
+         "description":""
+      },
+      {
+         "id":"18",
+         "name":"Electronics",
+         "description":""
+      },
+      {
+         "id":"20",
+         "name":"Stationaries",
+         "description":""
+      },
+      {
+         "id":"21",
+         "name":"UV Prints",
+         "description":""
+      }
+   ]
+}
