@@ -12,7 +12,7 @@ function app_server(){
 
 function asset_url(){
     if(app_server() == 1)
-        return "//localhost/citiad-assets/s3";
+        return "//localhost/ian_projects/citiad-assets/s3";
     
     else // s3
         return "https://s3-ap-southeast-1.amazonaws.com/quisi/citiad";

@@ -11,7 +11,7 @@
             "location": "/quisi/citiad/services/digital-silkscreen-printing/",
             "filename": "polo-shirt.png",
             "loc_url":"http://localhost",
-            "loc_base_dir":"/citiad-assets/s3",
+            "loc_base_dir":"/ian_projects/citiad-assets/s3",
             "loc_src_dir":"/services"
         }
       },
@@ -28,7 +28,7 @@
             "location": "/quisi/citiad/services/digital-silkscreen-printing/",
             "filename": "HJ-001.png",
             "loc_url":"http://localhost",
-            "loc_base_dir":"/citiad-assets/s3",
+            "loc_base_dir":"/ian_projects/citiad-assets/s3",
             "loc_src_dir":"/services"
         }
       },
@@ -45,7 +45,7 @@
             "location": "/quisi/citiad/services/digital-silkscreen-printing/",
             "filename": "HJ-002.png",
             "loc_url":"http://localhost",
-            "loc_base_dir":"/citiad-assets/s3",
+            "loc_base_dir":"/ian_projects/citiad-assets/s3",
             "loc_src_dir":"/services"
         }
       },
@@ -62,7 +62,7 @@
             "location": "/quisi/citiad/services/digital-silkscreen-printing/",
             "filename": "lanyard.png",
             "loc_url":"http://localhost",
-            "loc_base_dir":"/citiad-assets/s3",
+            "loc_base_dir":"/ian_projects/citiad-assets/s3",
             "loc_src_dir":"/services"
         }
       },
@@ -79,7 +79,7 @@
             "location": "/quisi/citiad/services/digital-silkscreen-printing/",
             "filename": "UM-001.png",
             "loc_url":"http://localhost",
-            "loc_base_dir":"/citiad-assets/s3",
+            "loc_base_dir":"/ian_projects/citiad-assets/s3",
             "loc_src_dir":"/services"
         }
       },
@@ -96,7 +96,7 @@
             "location": "/quisi/citiad/services/digital-silkscreen-printing/",
             "filename": "UM-002.png",
             "loc_url":"http://localhost",
-            "loc_base_dir":"/citiad-assets/s3",
+            "loc_base_dir":"/ian_projects/citiad-assets/s3",
             "loc_src_dir":"/services"
         }
       },
@@ -113,7 +113,7 @@
             "location": "/quisi/citiad/services/digital-silkscreen-printing/",
             "filename": "UM-003.png",
             "loc_url":"http://localhost",
-            "loc_base_dir":"/citiad-assets/s3",
+            "loc_base_dir":"/ian_projects/citiad-assets/s3",
             "loc_src_dir":"/services"
         }
       },
@@ -130,7 +130,7 @@
             "location": "/quisi/citiad/services/digital-silkscreen-printing/",
             "filename": "C-001.png",
             "loc_url":"http://localhost",
-            "loc_base_dir":"/citiad-assets/s3",
+            "loc_base_dir":"/ian_projects/citiad-assets/s3",
             "loc_src_dir":"/services"
         }
       },
@@ -147,7 +147,7 @@
             "location": "/quisi/citiad/services/digital-silkscreen-printing/",
             "filename": "C-002.png",
             "loc_url":"http://localhost",
-            "loc_base_dir":"/citiad-assets/s3",
+            "loc_base_dir":"/ian_projects/citiad-assets/s3",
             "loc_src_dir":"/services"
         }
       },
@@ -164,7 +164,7 @@
             "location": "/quisi/citiad/services/digital-silkscreen-printing/",
             "filename": "v-neck.png",
             "loc_url":"http://localhost",
-            "loc_base_dir":"/citiad-assets/s3",
+            "loc_base_dir":"/ian_projects/citiad-assets/s3",
             "loc_src_dir":"/services"
         }
       },
@@ -181,7 +181,7 @@
             "location": "/quisi/citiad/services/digital-silkscreen-printing/",
             "filename": "round-neck.png",
             "loc_url":"http://localhost",
-            "loc_base_dir":"/citiad-assets/s3",
+            "loc_base_dir":"/ian_projects/citiad-assets/s3",
             "loc_src_dir":"/services"
         }
       },
@@ -198,7 +198,7 @@
             "location": "/quisi/citiad/services/digital-silkscreen-printing/",
             "filename": "EB-001.png",
             "loc_url":"http://localhost",
-            "loc_base_dir":"/citiad-assets/s3",
+            "loc_base_dir":"/ian_projects/citiad-assets/s3",
             "loc_src_dir":"/services"
         }
       },
@@ -215,7 +215,7 @@
             "location": "/quisi/citiad/services/digital-silkscreen-printing/",
             "filename": "EB-002.png",
             "loc_url":"http://localhost",
-            "loc_base_dir":"/citiad-assets/s3",
+            "loc_base_dir":"/ian_projects/citiad-assets/s3",
             "loc_src_dir":"/services"
         }
       },
@@ -246,7 +246,7 @@
             "location": "/quisi/citiad/services/digital-silkscreen-printing/",
             "filename": "OK-004.png",
             "loc_url":"http://localhost",
-            "loc_base_dir":"/citiad-assets/s3",
+            "loc_base_dir":"/ian_projects/citiad-assets/s3",
             "loc_src_dir":"/services"
         }
       },
@@ -263,7 +263,7 @@
             "location": "/quisi/citiad/services/digital-silkscreen-printing/",
             "filename": "P-002.png",
             "loc_url":"http://localhost",
-            "loc_base_dir":"/citiad-assets/s3",
+            "loc_base_dir":"/ian_projects/citiad-assets/s3",
             "loc_src_dir":"/services"
         }
       },
@@ -280,7 +280,7 @@
             "location": "/quisi/citiad/services/digital-silkscreen-printing/",
             "filename": "AS-001.png",
             "loc_url":"http://localhost",
-            "loc_base_dir":"/citiad-assets/s3",
+            "loc_base_dir":"/ian_projects/citiad-assets/s3",
             "loc_src_dir":"/services"
         }
       }]

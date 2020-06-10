@@ -9,7 +9,7 @@
             "url": "https://s3-ap-southeast-1.amazonaws.com",
             "location": "/quisi/citiad/services/",
             "loc_url":"http://localhost",
-            "loc_base_dir":"/citiad-assets/s3",
+            "loc_base_dir":"/ian_projects/citiad-assets/s3",
             "loc_src_dir":"/services/",
             "filename": "large-format-printing.jpg"
         }
@@ -24,7 +24,7 @@
             "url": "https://s3-ap-southeast-1.amazonaws.com",
             "location": "/quisi/citiad/services/",
             "loc_url":"http://localhost",
-            "loc_base_dir":"/citiad-assets/s3",
+            "loc_base_dir":"/ian_projects/citiad-assets/s3",
             "loc_src_dir":"/services/",
             "filename": "corporate-give-aways.jpg"
         }
@@ -38,7 +38,7 @@
             "url": "https://s3-ap-southeast-1.amazonaws.com",
             "location": "/quisi/citiad/services/",
             "loc_url":"http://localhost",
-            "loc_base_dir":"/citiad-assets/s3",
+            "loc_base_dir":"/ian_projects/citiad-assets/s3",
             "loc_src_dir":"/services/",
             "filename": "digital_offset-printing.jpg"
         }
@@ -52,7 +52,7 @@
             "url": "https://s3-ap-southeast-1.amazonaws.com",
             "location": "/quisi/citiad/services/",
             "loc_url":"http://localhost",
-            "loc_base_dir":"/citiad-assets/s3",
+            "loc_base_dir":"/ian_projects/citiad-assets/s3",
             "loc_src_dir":"/services/",
             "filename": "display-systems.jpg"
         }

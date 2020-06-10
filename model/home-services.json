@@ -14,7 +14,7 @@
             "location": "/quisi/citiad/services/digital-offset-printing/",
             "filename": "vehicle-wrap-sticker.png",
             "loc_url":"http://localhost",
-            "loc_base_dir":"/citiad-assets/s3",
+            "loc_base_dir":"/ian_projects/citiad-assets/s3",
             "loc_src_dir":"/services/digital-offset-printing/"
         }
       },
@@ -31,7 +31,7 @@
             "location": "/quisi/citiad/services/digital-offset-printing/",
             "filename": "wall-sticker.png",
             "loc_url":"http://localhost",
-            "loc_base_dir":"/citiad-assets/s3",
+            "loc_base_dir":"/ian_projects/citiad-assets/s3",
             "loc_src_dir":"/services/digital-offset-printing/"
         }
       },
@@ -48,7 +48,7 @@
             "location": "/quisi/citiad/services/digital-offset-printing/",
             "filename": "pvc-id.png",
             "loc_url":"http://localhost",
-            "loc_base_dir":"/citiad-assets/s3",
+            "loc_base_dir":"/ian_projects/citiad-assets/s3",
             "loc_src_dir":"/services/digital-offset-printing/"
         }
       },
@@ -65,7 +65,7 @@
             "location": "/quisi/citiad/services/digital-offset-printing/",
             "filename": "brochure-flyers.png",
             "loc_url":"http://localhost",
-            "loc_base_dir":"/citiad-assets/s3",
+            "loc_base_dir":"/ian_projects/citiad-assets/s3",
             "loc_src_dir":"/services/digital-offset-printing/"
         }
       },
@@ -82,7 +82,7 @@
             "location": "/quisi/citiad/services/digital-offset-printing/",
             "filename": "envelope.png",
             "loc_url":"http://localhost",
-            "loc_base_dir":"/citiad-assets/s3",
+            "loc_base_dir":"/ian_projects/citiad-assets/s3",
             "loc_src_dir":"/services/digital-offset-printing/"
         }
       },
@@ -99,7 +99,7 @@
             "location": "/quisi/citiad/services/digital-offset-printing/",
             "filename": "calling-card.png",
             "loc_url":"http://localhost",
-            "loc_base_dir":"/citiad-assets/s3",
+            "loc_base_dir":"/ian_projects/citiad-assets/s3",
             "loc_src_dir":"/services/digital-offset-printing/"
         }
       },
@@ -116,7 +116,7 @@
             "location": "/quisi/citiad/services/digital-offset-printing/",
             "filename": "invitation-card.png",
             "loc_url":"http://localhost",
-            "loc_base_dir":"/citiad-assets/s3",
+            "loc_base_dir":"/ian_projects/citiad-assets/s3",
             "loc_src_dir":"/services/digital-offset-printing/"
         }
       },
@@ -133,7 +133,7 @@
             "location": "/quisi/citiad/services/exhibit-display-system/",
             "filename": "revolving-light-box.png",
             "loc_url":"http://localhost",
-            "loc_base_dir":"/citiad-assets/s3",
+            "loc_base_dir":"/ian_projects/citiad-assets/s3",
             "loc_src_dir":"/services/exhibit-display-system/"
         }
       },
@@ -150,7 +150,7 @@
             "location": "/quisi/citiad/services/exhibit-display-system/",
             "filename": "PUBS-002.png",
             "loc_url":"http://localhost",
-            "loc_base_dir":"/citiad-assets/s3",
+            "loc_base_dir":"/ian_projects/citiad-assets/s3",
             "loc_src_dir":"/services/exhibit-display-system/"
         }
       },
@@ -167,7 +167,7 @@
             "location": "/quisi/citiad/services/exhibit-display-system/",
             "filename": "easel-stand.png",
             "loc_url":"http://localhost",
-            "loc_base_dir":"/citiad-assets/s3",
+            "loc_base_dir":"/ian_projects/citiad-assets/s3",
             "loc_src_dir":"/services/exhibit-display-system/"
         }
       },
@@ -184,7 +184,7 @@
             "location": "/quisi/citiad/services/exhibit-display-system/",
             "filename": "X-001.png",
             "loc_url":"http://localhost",
-            "loc_base_dir":"/citiad-assets/s3",
+            "loc_base_dir":"/ian_projects/citiad-assets/s3",
             "loc_src_dir":"/services/exhibit-display-system/"
         }
       },
@@ -201,7 +201,7 @@
             "location": "/quisi/citiad/services/exhibit-display-system/",
             "filename": "X-002.png",
             "loc_url":"http://localhost",
-            "loc_base_dir":"/citiad-assets/s3",
+            "loc_base_dir":"/ian_projects/citiad-assets/s3",
             "loc_src_dir":"/services/exhibit-display-system/"
         }
       },
@@ -218,7 +218,7 @@
             "location": "/quisi/citiad/services/exhibit-display-system/",
             "filename": "porta-booth.png",
             "loc_url":"http://localhost",
-            "loc_base_dir":"/citiad-assets/s3",
+            "loc_base_dir":"/ian_projects/citiad-assets/s3",
             "loc_src_dir":"/services/exhibit-display-system/"
         }
       }
