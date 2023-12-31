@@ -1,4 +1,3 @@
-<?php include "api/ctrl/config.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title><?php print(TITLE); ?></title>
+    <title>Citiad Promo & Prints Co.</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -49,8 +48,8 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand page-scroll" href="./">
-                    <span class="hidden hd-home"><?php print(TITLE); ?></span>
-                    <img class="sh-logo" src="<?php print(ASSET_URL); ?>/assets/citiad_logo_240x90.png" />
+                    <span class="hidden hd-home">Citiad Promo & Prints Co.</span>
+                    <img class="sh-logo" src="https://s3.ap-southeast-1.amazonaws.com/citiad.co/assets/citiad_logo_240x90.png" />
                 </a>
             </div>
             <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">

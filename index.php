@@ -1,5 +1,3 @@
-<?php include "api/ctrl/config.php"; ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title><?php print(TITLE); ?></title>
+    <title>Citiad Promo & Prints Co.</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/agency.css" rel="stylesheet">
 
@@ -65,8 +63,8 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand page-scroll" href="#home">
-                    <span class="hidden hd-home"><?php print(TITLE); ?></span>
-                    <img class="sh-logo" src="<?php print(ASSET_URL); ?>/assets/citiad_logo_240x90.png" />
+                    <span class="hidden hd-home">Citiad Promo & Prints Co.</span>
+                    <img class="sh-logo" src="https://s3.ap-southeast-1.amazonaws.com/citiad.co/assets/citiad_logo_240x90.png" />
                 </a>    
             </div>
 
@@ -222,7 +220,7 @@
                     </div>
 
                     <div class="col-md-3 portfolio-item">
-                        <img src="<?php print(ASSET_URL); ?>/assets/ad4r_rush_shirt_printing_260x520.png" class="img-responsive" style="width:100%">
+                        <img src="https://s3.ap-southeast-1.amazonaws.com/citiad.co/assets/ad4r_rush_shirt_printing_260x520.png" class="img-responsive" style="width:100%">
                     </div>
 
                 </section>
@@ -230,7 +228,7 @@
                 
                 <div class="row" style="padding-top:30px">
                     <div class="col-lg-12">
-                        <img src="<?php print(ASSET_URL); ?>/assets/ad5b_1140x200.png" class="img-responsive" style="width:100%">
+                        <img src="https://s3.ap-southeast-1.amazonaws.com/citiad.co/assets/ad5b_1140x200.png" class="img-responsive" style="width:100%">
                     </div>
                 </div>
                 
@@ -272,7 +270,7 @@
                                 <section id="best-selling-first-row">
                                     <div class="col-lg-4">
                                         <span onclick="javascript:window.location='view-product.php?p=' + btoa(1)">
-                                            <img src="<?php print(ASSET_URL); ?>/products/tumbler/300x300/tumbler-CM-226-double-wall-ceramic-mug-silicon-cover.png" class="img-responsive" alt="">
+                                            <img src="https://s3.ap-southeast-1.amazonaws.com/citiad.co/products/tumbler/300x300/tumbler-CM-226-double-wall-ceramic-mug-silicon-cover.png" class="img-responsive" alt="">
                                             <div class="portfolio-caption">
                                                 <h4>Product 10</h4>
                                                 <p class="text-muted">Lorem ipsum</p>
@@ -282,7 +280,7 @@
 
                                     <div class="col-lg-4">
                                         <span onclick="javascript:window.location='view-product.php?p=' + btoa(1)">
-                                            <img src="<?php print(ASSET_URL); ?>/products/ballpen/300x300/ballpen-BP-152.png" class="img-responsive" alt="">
+                                            <img src="https://s3.ap-southeast-1.amazonaws.com/citiad.co/products/ballpen/300x300/ballpen-BP-152.png" class="img-responsive" alt="">
                                             <div class="portfolio-caption">
                                                 <h4>Product 11</h4>
                                                 <p class="text-muted">Lorem ipsum</p>
@@ -292,7 +290,7 @@
 
                                     <div class="col-lg-4">
                                         <span onclick="javascript:window.location='view-product.php?p=' + btoa(1)">
-                                            <img src="<?php print(ASSET_URL); ?>/products/tumbler/300x300/tumbler-CMIC-002.png" class="img-responsive" alt="">
+                                            <img src="https://s3.ap-southeast-1.amazonaws.com/citiad.co/products/tumbler/300x300/tumbler-CMIC-002.png" class="img-responsive" alt="">
                                             <div class="portfolio-caption">
                                                 <h4>Product 12</h4>
                                                 <p class="text-muted">Lorem ipsum</p>
@@ -306,7 +304,7 @@
                                 <section id="best-selling-second-row">
                                 <div class="col-lg-4">
                                     <span onclick="javascript:window.location='view-product.php?p=' + btoa(1)">
-                                        <img src="<?php print(ASSET_URL); ?>/products/ballpen/300x300/ballpen-BP-155.png" class="img-responsive" alt="">
+                                        <img src="https://s3.ap-southeast-1.amazonaws.com/citiad.co/products/ballpen/300x300/ballpen-BP-155.png" class="img-responsive" alt="">
                                         <div class="portfolio-caption">
                                             <h4>Product 13</h4>
                                             <p class="text-muted">Lorem ipsum</p>
@@ -316,7 +314,7 @@
 
                                 <div class="col-lg-4">
                                     <span onclick="javascript:window.location='view-product.php?p=' + btoa(1)">
-                                        <img src="<?php print(ASSET_URL); ?>/products/tumbler/300x300/tumbler-CMM-003.png" class="img-responsive" alt="">
+                                        <img src="https://s3.ap-southeast-1.amazonaws.com/citiad.co/products/tumbler/300x300/tumbler-CMM-003.png" class="img-responsive" alt="">
                                         <div class="portfolio-caption">
                                             <h4>Product 14</h4>
                                             <p class="text-muted">Lorem ipsum</p>
@@ -326,7 +324,7 @@
 
                                 <div class="col-lg-4">
                                     <span onclick="javascript:window.location='view-product.php?p=' + btoa(1)">
-                                        <img src="<?php print(ASSET_URL); ?>/products/ballpen/300x300/ballpen-BP-2063-counter-pen.png" class="img-responsive" alt="">
+                                        <img src="https://s3.ap-southeast-1.amazonaws.com/citiad.co/products/ballpen/300x300/ballpen-BP-2063-counter-pen.png" class="img-responsive" alt="">
                                         <div class="portfolio-caption">
                                             <h4>Product 15</h4>
                                             <p class="text-muted">Lorem ipsum</p>
@@ -443,7 +441,7 @@
                                             <i class="fa fa-file-text"></i> Request Quotation
                                         </div>
                                     </div>
-                                    <img src="<?php print(ASSET_URL); ?>/services/large-format-printing.jpg" class="img-responsive" alt="">
+                                    <img src="https://s3.ap-southeast-1.amazonaws.com/citiad.co/services/large-format-printing.jpg" class="img-responsive" alt="">
                                 </a>
                                 <div class="portfolio-caption">
                                     <!--<h4>Large Format printing</h4>-->
@@ -458,7 +456,7 @@
                                             <i class="fa fa-file-text"></i> Request Quotation
                                         </div>
                                     </div>
-                                    <img src="<?php print(ASSET_URL); ?>/services/digital_offset-printing.jpg" class="img-responsive" alt="">
+                                    <img src="https://s3.ap-southeast-1.amazonaws.com/citiad.co/services/digital_offset-printing.jpg" class="img-responsive" alt="">
                                 </a>
                                 <div class="portfolio-caption">
                                     <!--<h4>Digital / Offset Printing</h4>-->
@@ -473,7 +471,7 @@
                                             <i class="fa fa-file-text"></i> Request Quotation
                                         </div>
                                     </div>
-                                    <img src="<?php print(ASSET_URL); ?>/services/corporate-give-aways.jpg" class="img-responsive" alt="">
+                                    <img src="https://s3.ap-southeast-1.amazonaws.com/citiad.co/services/corporate-give-aways.jpg" class="img-responsive" alt="">
                                 </a>
                                 <div class="portfolio-caption">
                                     <!--<h4>Corporate Giveaways</h4>-->
@@ -496,58 +494,58 @@
                     <hr class="bottom-hr" />
                 </div>
                 <div class="col-md-2 col-sm-4">
-                    <img src="<?php print(ASSET_URL); ?>/clients/acquire.png" class="img-responsive img-centered" alt="">
+                    <img src="https://s3.ap-southeast-1.amazonaws.com/citiad.co/clients/acquire.png" class="img-responsive img-centered" alt="">
                 </div>
                 <div class="col-md-2 col-sm-4">
-                    <img src="<?php print(ASSET_URL); ?>/clients/ccf-feliz.png" class="img-responsive img-centered" alt="">
+                    <img src="https://s3.ap-southeast-1.amazonaws.com/citiad.co/clients/ccf-feliz.png" class="img-responsive img-centered" alt="">
                 </div>    
                 <div class="col-md-2 col-sm-4">
-                    <img src="<?php print(ASSET_URL); ?>/clients/cgi.png" class="img-responsive img-centered" alt="">
+                    <img src="https://s3.ap-southeast-1.amazonaws.com/citiad.co/clients/cgi.png" class="img-responsive img-centered" alt="">
                 </div>
                 <div class="col-md-2 col-sm-4">
-                    <img src="<?php print(ASSET_URL); ?>/clients/exatech.png" class="img-responsive img-centered" alt="">
+                    <img src="https://s3.ap-southeast-1.amazonaws.com/citiad.co/clients/exatech.png" class="img-responsive img-centered" alt="">
                 </div>
                 <div class="col-md-2 col-sm-4">
-                    <img src="<?php print(ASSET_URL); ?>/clients/uratex.png" class="img-responsive img-centered" alt="">
+                    <img src="https://s3.ap-southeast-1.amazonaws.com/citiad.co/clients/uratex.png" class="img-responsive img-centered" alt="">
                 </div>
                 <div class="col-md-2 col-sm-4">
-                    <img src="<?php print(ASSET_URL); ?>/clients/samsung.png" class="img-responsive img-centered" alt="">
+                    <img src="https://s3.ap-southeast-1.amazonaws.com/citiad.co/clients/samsung.png" class="img-responsive img-centered" alt="">
                 </div>
                 <div class="col-md-2 col-sm-4">
-                    <img src="<?php print(ASSET_URL); ?>/clients/shore-solutions.png" class="img-responsive img-centered" alt="">
+                    <img src="https://s3.ap-southeast-1.amazonaws.com/citiad.co/clients/shore-solutions.png" class="img-responsive img-centered" alt="">
                 </div>
                 <div class="col-md-2 col-sm-4">
-                    <img src="<?php print(ASSET_URL); ?>/clients/knowlegde-inspiration-training-events.png" class="img-responsive img-centered" alt="">
+                    <img src="https://s3.ap-southeast-1.amazonaws.com/citiad.co/clients/knowlegde-inspiration-training-events.png" class="img-responsive img-centered" alt="">
                 </div>
                 <div class="col-md-2 col-sm-4">
-                    <img src="<?php print(ASSET_URL); ?>/clients/largen-med.png" class="img-responsive img-centered" alt="">
+                    <img src="https://s3.ap-southeast-1.amazonaws.com/citiad.co/clients/largen-med.png" class="img-responsive img-centered" alt="">
                 </div>
                 <div class="col-md-2 col-sm-4">
-                    <img src="<?php print(ASSET_URL); ?>/clients/panasonic.png" class="img-responsive img-centered" alt="">
+                    <img src="https://s3.ap-southeast-1.amazonaws.com/citiad.co/clients/panasonic.png" class="img-responsive img-centered" alt="">
                 </div>
                 <div class="col-md-2 col-sm-4">
-                    <img src="<?php print(ASSET_URL); ?>/clients/timi.png" class="img-responsive img-centered" alt="">
+                    <img src="https://s3.ap-southeast-1.amazonaws.com/citiad.co/clients/timi.png" class="img-responsive img-centered" alt="">
                 </div>
                 <div class="col-md-2 col-sm-4">
-                    <img src="<?php print(ASSET_URL); ?>/clients/primeline-products-philippines.png" class="img-responsive img-centered" alt="">
+                    <img src="https://s3.ap-southeast-1.amazonaws.com/citiad.co/clients/primeline-products-philippines.png" class="img-responsive img-centered" alt="">
                 </div>
                 <div class="col-md-2 col-sm-4">
-                    <img src="<?php print(ASSET_URL); ?>/clients/saf.png" class="img-responsive img-centered" alt="">
+                    <img src="https://s3.ap-southeast-1.amazonaws.com/citiad.co/clients/saf.png" class="img-responsive img-centered" alt="">
                 </div>
                 <div class="col-md-2 col-sm-4">
-                    <img src="<?php print(ASSET_URL); ?>/clients/tripaholic.png" class="img-responsive img-centered" alt="">
+                    <img src="https://s3.ap-southeast-1.amazonaws.com/citiad.co/clients/tripaholic.png" class="img-responsive img-centered" alt="">
                 </div>
                 <div class="col-md-2 col-sm-4">
-                    <img src="<?php print(ASSET_URL); ?>/clients/natrapharm.png" class="img-responsive img-centered" alt="">
+                    <img src="https://s3.ap-southeast-1.amazonaws.com/citiad.co/clients/natrapharm.png" class="img-responsive img-centered" alt="">
                 </div>
                 <div class="col-md-2 col-sm-4">
-                    <img src="<?php print(ASSET_URL); ?>/clients/variance-security-agency-corp.png" class="img-responsive img-centered" alt="">
+                    <img src="https://s3.ap-southeast-1.amazonaws.com/citiad.co/clients/variance-security-agency-corp.png" class="img-responsive img-centered" alt="">
                 </div>
                 <div class="col-md-2 col-sm-4">
-                    <img src="<?php print(ASSET_URL); ?>/clients/water-org.png" class="img-responsive img-centered" alt="">
+                    <img src="https://s3.ap-southeast-1.amazonaws.com/citiad.co/clients/water-org.png" class="img-responsive img-centered" alt="">
                 </div>
                 <div class="col-md-2 col-sm-4">
-                    <img src="<?php print(ASSET_URL); ?>/clients/meyerf.png" class="img-responsive img-centered" alt="">
+                    <img src="https://s3.ap-southeast-1.amazonaws.com/citiad.co/clients/meyerf.png" class="img-responsive img-centered" alt="">
                 </div>
             </div>
         
@@ -567,7 +565,7 @@
                     </ul>
                 </div>
                 <div class="col-md-10 cp_footer">
-                    <span class="copyright">&copy; <?php echo date('Y'); ?> <?php print(TITLE); ?> <!-- Powered by <a href="http://www.quisi.net">quisi.net</a>--> </span>
+                    <span class="copyright">&copy; <?php echo date('Y'); ?> Citiad Promo & Prints Co. <!-- Powered by <a href="http://www.quisi.net">quisi.net</a>--> </span>
                 </div>
             </div>
         </div>

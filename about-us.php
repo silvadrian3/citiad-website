@@ -1,5 +1,3 @@
-<?php include "api/ctrl/config.php"; ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title><?php print(TITLE); ?></title>
+    <title>Citiad Promo & Prints Co.</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -48,8 +46,8 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand page-scroll" href="./">
-                    <span class="hidden hd-home"><?php print(TITLE); ?></span>
-                    <img class="sh-logo" src="<?php print(ASSET_URL); ?>/assets/citiad_logo_240x90.png" />
+                    <span class="hidden hd-home">Citiad Promo & Prints Co.</span>
+                    <img class="sh-logo" src="https://s3.ap-southeast-1.amazonaws.com/citiad.co/assets/citiad_logo_240x90.png" />
                 </a>
             </div>
             <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
@@ -93,7 +91,7 @@
                     <ul class="timeline">
                         <li>
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="<?php print(ASSET_URL); ?>/assets/humble-beginning.png" alt="">
+                                <img class="img-circle img-responsive" src="https://s3.ap-southeast-1.amazonaws.com/citiad.co/assets/humble-beginning.png" alt="">
                                 <!--<h4><br/>170 x 170 px</h4>-->
                             </div>
                             <div class="timeline-panel">
@@ -102,13 +100,13 @@
                                     <h4 class="subheading">Our Humble Beginnings</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted"><?php print(TITLE); ?> traces its humble beginnings from Pintaad Graphix & Designs a sole proprietorship that offers graphics, exhibition logistics and printing services in Cainta, Rizal in 2004. <!--Business expansion was considered when demand for advertising increased with the inclusion of additional services.--></p>
+                                    <p class="text-muted">Citiad Promo & Prints Co. traces its humble beginnings from Pintaad Graphix & Designs a sole proprietorship that offers graphics, exhibition logistics and printing services in Cainta, Rizal in 2004. <!--Business expansion was considered when demand for advertising increased with the inclusion of additional services.--></p>
                                 </div>
                             </div>
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="<?php print(ASSET_URL); ?>/assets/company-growth.png" alt="">
+                                <img class="img-circle img-responsive" src="https://s3.ap-southeast-1.amazonaws.com/citiad.co/assets/company-growth.png" alt="">
                                 <!--<h4><br/>170 x 170 px</h4>-->
                             </div>
                             <div class="timeline-panel">
@@ -123,7 +121,7 @@
                         </li>
                         <li>
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="<?php print(ASSET_URL); ?>/assets/company-expansion.png" alt="">
+                                <img class="img-circle img-responsive" src="https://s3.ap-southeast-1.amazonaws.com/citiad.co/assets/company-expansion.png" alt="">
                                 <!--<h4><br/>170 x 170 px</h4>-->
                             </div>
                             <div class="timeline-panel">
@@ -132,13 +130,13 @@
                                     <h4 class="subheading">Company Expansion</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">The company expanded its business with the birth of <?php print(TITLE); ?> a Filipino company duly registered with the Securities and Exchange Commission. It has its principal office address at Unit C3 Bueno Tierra Building, 4580 Lilac Street,SSS Village, Concepcion 2, Marikina City.</p>
+                                    <p class="text-muted">The company expanded its business with the birth of Citiad Promo & Prints Co. a Filipino company duly registered with the Securities and Exchange Commission. It has its principal office address at Unit C3 Bueno Tierra Building, 4580 Lilac Street,SSS Village, Concepcion 2, Marikina City.</p>
                                 </div>
                             </div>
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="<?php print(ASSET_URL); ?>/assets/who-we-are-now.png" alt="">
+                                <img class="img-circle img-responsive" src="https://s3.ap-southeast-1.amazonaws.com/citiad.co/assets/who-we-are-now.png" alt="">
                                 <!--<h4><br/>170 x 170 px</h4>-->
                             </div>
                             <div class="timeline-panel">
