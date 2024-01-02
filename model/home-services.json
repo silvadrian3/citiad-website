@@ -11,7 +11,7 @@
         "image": {
             "id": 1,
             "url": "https://s3-ap-southeast-1.amazonaws.com",
-            "location": "/quisi/citiad/services/digital-offset-printing/",
+            "location": "/citiad.co/services/digital-offset-printing/300x300/",
             "filename": "vehicle-wrap-sticker.png",
             "loc_url":"http://localhost",
             "loc_base_dir":"/ian_projects/citiad-assets/s3",
@@ -28,7 +28,7 @@
         "image": {
             "id": 2,
             "url": "https://s3-ap-southeast-1.amazonaws.com",
-            "location": "/quisi/citiad/services/digital-offset-printing/",
+            "location": "/citiad.co/services/digital-offset-printing/300x300/",
             "filename": "wall-sticker.png",
             "loc_url":"http://localhost",
             "loc_base_dir":"/ian_projects/citiad-assets/s3",
@@ -45,7 +45,7 @@
         "image": {
             "id": 3,
             "url": "https://s3-ap-southeast-1.amazonaws.com",
-            "location": "/quisi/citiad/services/digital-offset-printing/",
+            "location": "/citiad.co/services/digital-offset-printing/300x300/",
             "filename": "pvc-id.png",
             "loc_url":"http://localhost",
             "loc_base_dir":"/ian_projects/citiad-assets/s3",
@@ -62,7 +62,7 @@
         "image": {
             "id": 4,
             "url": "https://s3-ap-southeast-1.amazonaws.com",
-            "location": "/quisi/citiad/services/digital-offset-printing/",
+            "location": "/citiad.co/services/digital-offset-printing/300x300/",
             "filename": "brochure-flyers.png",
             "loc_url":"http://localhost",
             "loc_base_dir":"/ian_projects/citiad-assets/s3",
@@ -79,7 +79,7 @@
         "image": {
             "id": 5,
             "url": "https://s3-ap-southeast-1.amazonaws.com",
-            "location": "/quisi/citiad/services/digital-offset-printing/",
+            "location": "/citiad.co/services/digital-offset-printing/300x300/",
             "filename": "envelope.png",
             "loc_url":"http://localhost",
             "loc_base_dir":"/ian_projects/citiad-assets/s3",
@@ -96,7 +96,7 @@
         "image": {
             "id": 6,
             "url": "https://s3-ap-southeast-1.amazonaws.com",
-            "location": "/quisi/citiad/services/digital-offset-printing/",
+            "location": "/citiad.co/services/digital-offset-printing/300x300/",
             "filename": "calling-card.png",
             "loc_url":"http://localhost",
             "loc_base_dir":"/ian_projects/citiad-assets/s3",
@@ -113,7 +113,7 @@
         "image": {
             "id": 7,
             "url": "https://s3-ap-southeast-1.amazonaws.com",
-            "location": "/quisi/citiad/services/digital-offset-printing/",
+            "location": "/citiad.co/services/digital-offset-printing/300x300/",
             "filename": "invitation-card.png",
             "loc_url":"http://localhost",
             "loc_base_dir":"/ian_projects/citiad-assets/s3",
@@ -130,7 +130,7 @@
         "image": {
             "id": 25,
             "url": "https://s3-ap-southeast-1.amazonaws.com",
-            "location": "/quisi/citiad/services/exhibit-display-system/",
+            "location": "/citiad.co/services/exhibit-display-system/300x300/",
             "filename": "revolving-light-box.png",
             "loc_url":"http://localhost",
             "loc_base_dir":"/ian_projects/citiad-assets/s3",
@@ -147,7 +147,7 @@
         "image": {
             "id": 26,
             "url": "https://s3-ap-southeast-1.amazonaws.com",
-            "location": "/quisi/citiad/services/exhibit-display-system/",
+            "location": "/citiad.co/services/exhibit-display-system/300x300/",
             "filename": "PUBS-002.png",
             "loc_url":"http://localhost",
             "loc_base_dir":"/ian_projects/citiad-assets/s3",
@@ -164,7 +164,7 @@
         "image": {
             "id": 27,
             "url": "https://s3-ap-southeast-1.amazonaws.com",
-            "location": "/quisi/citiad/services/exhibit-display-system/",
+            "location": "/citiad.co/services/exhibit-display-system/300x300/",
             "filename": "easel-stand.png",
             "loc_url":"http://localhost",
             "loc_base_dir":"/ian_projects/citiad-assets/s3",
@@ -181,7 +181,7 @@
         "image": {
             "id": 26,
             "url": "https://s3-ap-southeast-1.amazonaws.com",
-            "location": "/quisi/citiad/services/exhibit-display-system/",
+            "location": "/citiad.co/services/exhibit-display-system/300x300/",
             "filename": "X-001.png",
             "loc_url":"http://localhost",
             "loc_base_dir":"/ian_projects/citiad-assets/s3",
@@ -198,7 +198,7 @@
         "image": {
             "id": 27,
             "url": "https://s3-ap-southeast-1.amazonaws.com",
-            "location": "/quisi/citiad/services/exhibit-display-system/",
+            "location": "/citiad.co/services/exhibit-display-system/300x300/",
             "filename": "X-002.png",
             "loc_url":"http://localhost",
             "loc_base_dir":"/ian_projects/citiad-assets/s3",
@@ -215,7 +215,7 @@
         "image": {
             "id": 28,
             "url": "https://s3-ap-southeast-1.amazonaws.com",
-            "location": "/quisi/citiad/services/exhibit-display-system/",
+            "location": "/citiad.co/services/exhibit-display-system/300x300/",
             "filename": "porta-booth.png",
             "loc_url":"http://localhost",
             "loc_base_dir":"/ian_projects/citiad-assets/s3",

@@ -312,8 +312,8 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../../citiad-assets/s3/assets/mimaki-ujf-3042-mkii.png);
-    /* background-image: url('https://s3-ap-southeast-1.amazonaws.com/quisi/citiad/assets/mimaki-ujf-3042-mkii.png'); */
+    /* background-image: url(../../citiad-assets/s3/assets/mimaki-ujf-3042-mkii.png); */
+    background-image: url('https://s3.ap-southeast-1.amazonaws.com/citiad.co/assets/mimaki-ujf-3042-mkii.png');
     background-position: center;
     padding: 100px 0 50px 0;
     background-repeat: no-repeat;

@@ -7,7 +7,7 @@
         "image": {
             "id": 21,
             "url": "https://s3-ap-southeast-1.amazonaws.com",
-            "location": "/quisi/citiad/services/",
+            "location": "/citiad.co/services/",
             "loc_url":"http://localhost",
             "loc_base_dir":"/ian_projects/citiad-assets/s3",
             "loc_src_dir":"/services/",
@@ -22,7 +22,7 @@
         "image": {
             "id": 22,
             "url": "https://s3-ap-southeast-1.amazonaws.com",
-            "location": "/quisi/citiad/services/",
+            "location": "/citiad.co/services/",
             "loc_url":"http://localhost",
             "loc_base_dir":"/ian_projects/citiad-assets/s3",
             "loc_src_dir":"/services/",
@@ -36,7 +36,7 @@
         "image": {
             "id": 23,
             "url": "https://s3-ap-southeast-1.amazonaws.com",
-            "location": "/quisi/citiad/services/",
+            "location": "/citiad.co/services/",
             "loc_url":"http://localhost",
             "loc_base_dir":"/ian_projects/citiad-assets/s3",
             "loc_src_dir":"/services/",
@@ -50,7 +50,7 @@
         "image": {
             "id": 24,
             "url": "https://s3-ap-southeast-1.amazonaws.com",
-            "location": "/quisi/citiad/services/",
+            "location": "/citiad.co/services/",
             "loc_url":"http://localhost",
             "loc_base_dir":"/ian_projects/citiad-assets/s3",
             "loc_src_dir":"/services/",
