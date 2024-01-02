@@ -72,8 +72,8 @@
       .slide1 {
         background: url(img/center-ad1.jpg) no-repeat center;
         background-size: cover;
-        animation: fade 12s infinite;
-        -webkit-animation: fade 12s infinite;
+        /* animation: fade 12s infinite; */
+        /* -webkit-animation: fade 12s infinite; */
       }
       .slide2 {
         background: url(img/center-ad2.png) no-repeat center;
@@ -310,8 +310,8 @@
             <div class="col-md-6 portfolio-item">
               <div class="slider">
                 <div class="slide1"></div>
-                <div class="slide2"></div>
-                <div class="slide3"></div>
+                <!-- <div class="slide2"></div>
+                <div class="slide3"></div> -->
               </div>
 
               <br />
@@ -846,7 +846,7 @@
           <div class="col-md-10 cp_footer">
             <span class="copyright"
               >&copy;
-              <?php echo date('Y'); ?>
+              <!-- <?php echo date('Y'); ?> -->
               Citiad Promo & Prints Co.
               <!-- Powered by <a href="http://www.quisi.net">quisi.net</a>-->
             </span>
@@ -894,7 +894,6 @@
             $scope.home_services = [];
             $scope.his_statements_products = [];
 
-            //var home_products_url = 'api/v1/products.php?k=5fea10f9b07309ead88909855cfff695&client_id=' + btoa(3) + '&category_id[]=14&category_id[]=15&category_id[]=17&limit=12&random=1';
             var home_products_url = "model/home-products.json";
 
             $http.get(home_products_url).success(function (response) {
@@ -918,7 +917,6 @@
               }
             });
 
-            //var home_services_url = 'api/v1/products.php?k=5fea10f9b07309ead88909855cfff695&client_id=' + btoa(3)  + '&category_id[]=' + 18 + '&category_id[]=' + 19 + '&category_id[]=' + 20 + '&category_id[]=' + 21 + '&limit=20&random=1';
             var home_services_url = "model/home-services.json";
 
             $http.get(home_services_url).success(function (response) {
@@ -937,7 +935,6 @@
               }
             });
 
-            //var his_statements_products_url = 'api/v1/products.php?k=5fea10f9b07309ead88909855cfff695&client_id=' + btoa(3) + '&category_id=16&limit=6';
             var his_statements_products_url =
               "model/his-statements-products.json";
 
@@ -947,7 +944,6 @@
               }
             });
 
-            //var categories_url = 'api/v1/categories.php?k=5fea10f9b07309ead88909855cfff695&client_id=' + btoa(3);
             var categories_url = "model/categories.json";
 
             $http.get(categories_url).success(function (response) {

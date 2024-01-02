@@ -82,11 +82,11 @@
 
                 <ul class="nav navbar-nav navbar-right">
                     <li><a class="hd-home" href="./">Home</a></li>
-                    <li><a href="products.php">Products</a></li>
-                    <li><a href="services.php">Services</a></li>
-                    <li><a href="about-us.php">About Us</a></li>
-                    <li><a href="contact-us.php">Contact Us</a></li>
-                    <li><a href="his-statements.php">His Statements</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                    <li><a href="his-statements.html">His Statements</a></li>
                 </ul>
             </div>
         </div>
@@ -229,14 +229,14 @@
             angular.element(document).ready(function () {
                 $("#product-page-load").css("display", "block");
                 
-                //var categories_url = 'api/v1/categories.php?k=5fea10f9b07309ead88909855cfff695&client_id=' + btoa(3);
+                //var categories_url = 'api/v1/categories.html?k=5fea10f9b07309ead88909855cfff695&client_id=' + btoa(3);
                 var categories_url = 'model/categories.json';
                 
                 $http.get(categories_url).success(function (response) {
                     $scope.category = response.data;
                 });
                 
-                //var products_url = 'api/v1/products.php?k=5fea10f9b07309ead88909855cfff695&client_id=' + btoa(3);
+                //var products_url = 'api/v1/products.html?k=5fea10f9b07309ead88909855cfff695&client_id=' + btoa(3);
                 var products_url = 'model/products.json';
                 
                 $http.get(products_url).success(function (response) {
@@ -384,7 +384,7 @@
             }
             
             $scope.redirect = function(id){
-                window.location = "view-product.php?p=" + btoa(id);
+                window.location = "view-product.html?p=" + btoa(id);
             }
 
             

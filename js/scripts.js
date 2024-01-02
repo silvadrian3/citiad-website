@@ -2,7 +2,7 @@ function search(){
 
     var category_id = 0,
         category_name = $("#searchByCategory").val().trim(),
-        targetUrl = "products.php";
+        targetUrl = "products.html";
 
     switch (category_name) {
         case "Writing Instruments":
