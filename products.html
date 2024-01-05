@@ -121,6 +121,7 @@
                 placeholder="Search..."
                 aria-describedby="search-addon"
                 list="categorylist"
+                onChange="search()"
               />
               <span
                 class="input-group-addon"
@@ -277,7 +278,11 @@
                     ng-repeat="product in filtered = items | filter:search | startFrom:(currentPage-1)*entryLimit | limitTo:entryLimit"
                     ng-click="redirect(product.product_id)"
                   >
-                    <img ng-src="{{product.img_url + product.img_location  + product.img_filename}}" class="center-block img-responsive" alt="product.name" />
+                    <img
+                      ng-src="{{product.img_url + product.img_location  + product.img_filename}}"
+                      class="center-block img-responsive"
+                      alt="product.name"
+                    />
 
                     <!-- <img
                       ng-src="{{product.loc_url + product.loc_base_dir + product.loc_src_dir + product.img_filename}}"
@@ -339,8 +344,8 @@
               </ul>
             </div>
             <div class="col-md-10 cp_footer">
-              <span class="copyright"
-                >&copy; Citiad Promo &amp; Prints Co.
+              <span class="copyright">
+                &copy; <span id="currentYear"></span> Citiad Promo & Prints Co.
                 <!-- Powered by <a href="http://www.quisi.net">quisi.net</a>-->
               </span>
             </div>
@@ -379,91 +384,99 @@
             //var categories_url = 'api/v1/categories.html?k=5fea10f9b07309ead88909855cfff695&client_id=' + btoa(3);
             var categories_url = "model/categories.json";
 
-            $http.get(categories_url).success(function (response) {
-              $scope.category = response.data;
-            });
+            $http
+              .get(categories_url)
+              .success(function (response) {
+                $scope.category = response.data;
+              })
+              .then(function () {
+                //var products_url = 'api/v1/products.html?k=5fea10f9b07309ead88909855cfff695&client_id=' + btoa(3);
+                var products_url = "model/products.json";
 
-            //var products_url = 'api/v1/products.html?k=5fea10f9b07309ead88909855cfff695&client_id=' + btoa(3);
-            var products_url = "model/products.json";
+                $http.get(products_url).success(function (response) {
+                  if (response.result) {
+                    $scope.items = response.data;
+                    //console.log(JSON.stringify(response.data));
+                    $scope.totalresult = response.data.length;
 
-            $http.get(products_url).success(function (response) {
-              if (response.result) {
-                $scope.items = response.data;
-                //console.log(JSON.stringify(response.data));
-                $scope.totalresult = response.data.length;
+                    // create empty search model (object) to trigger $watch on update
+                    $scope.search = {};
 
-                // create empty search model (object) to trigger $watch on update
-                $scope.search = {};
+                    var pattern = /[?&]c=/,
+                      URL = location.search;
 
-                var pattern = /[?&]c=/,
-                  URL = location.search;
+                    if (GetQueryStringParams("c") != "" && pattern.test(URL)) {
+                      var cat_id = GetQueryStringParams("c"),
+                        category_id = atob(cat_id);
+                      $scope.search = { category_id: category_id };
+                      $scope.filter_category(category_id);
+                    }
 
-                if (GetQueryStringParams("c") != "" && pattern.test(URL)) {
-                  var cat_id = GetQueryStringParams("c"),
-                    category_id = atob(cat_id);
-                  $scope.search = { category_id: category_id };
-                  $scope.filter_category(category_id);
-                }
-
-                // pagination controls
-                $scope.currentPage = 1;
-                $scope.totalItems = $scope.items.length;
-                $scope.entryLimit = 12; // items per page
-                $scope.noOfPages = Math.ceil(
-                  $scope.totalItems / $scope.entryLimit
-                );
-
-                // $watch search to update pagination
-                $scope.$watch(
-                  "search",
-                  function (newVal, oldVal) {
-                    document.getElementById("product-page-load").style.display =
-                      "block";
-                    document.getElementById("divShowProducts").style.display =
-                      "none";
-
-                    $scope.filtered = filterFilter($scope.items, newVal);
-                    $scope.totalItems = $scope.filtered.length;
+                    // pagination controls
+                    $scope.currentPage = 1;
+                    $scope.totalItems = $scope.items.length;
+                    $scope.entryLimit = 12; // items per page
                     $scope.noOfPages = Math.ceil(
                       $scope.totalItems / $scope.entryLimit
                     );
-                    $scope.currentPage = 1;
 
-                    if ($scope.totalItems == $scope.totalresult) {
-                      $scope.show_all = false;
-                    } else {
-                      $scope.show_all = true;
-                    }
+                    // $watch search to update pagination
+                    $scope.$watch(
+                      "search",
+                      function (newVal, oldVal) {
+                        document.getElementById(
+                          "product-page-load"
+                        ).style.display = "block";
+                        document.getElementById(
+                          "divShowProducts"
+                        ).style.display = "none";
 
-                    if ($scope.totalItems > 0) {
-                      $scope.itemResult = true;
+                        $scope.filtered = filterFilter($scope.items, newVal);
+                        $scope.totalItems = $scope.filtered.length;
+                        $scope.noOfPages = Math.ceil(
+                          $scope.totalItems / $scope.entryLimit
+                        );
+                        $scope.currentPage = 1;
 
-                      if ($scope.totalItems > 12) {
-                        document.getElementById("paganation").style.display =
+                        if ($scope.totalItems == $scope.totalresult) {
+                          $scope.show_all = false;
+                        } else {
+                          $scope.show_all = true;
+                        }
+
+                        if ($scope.totalItems > 0) {
+                          $scope.itemResult = true;
+
+                          if ($scope.totalItems > 12) {
+                            document.getElementById(
+                              "paganation"
+                            ).style.display = "block";
+                          } else {
+                            document.getElementById(
+                              "paganation"
+                            ).style.display = "none";
+                          }
+                        } else {
+                          $scope.itemResult = false;
+                          document.getElementById("paganation").style.display =
+                            "none";
+                        }
+
+                        document.getElementById(
+                          "product-page-load"
+                        ).style.display = "none";
+                        $("#divShowProducts").css("display", "block");
+                        document.getElementById("divResult").style.display =
                           "block";
-                      } else {
-                        document.getElementById("paganation").style.display =
-                          "none";
-                      }
-                    } else {
-                      $scope.itemResult = false;
-                      document.getElementById("paganation").style.display =
-                        "none";
-                    }
-
-                    document.getElementById("product-page-load").style.display =
-                      "none";
-                    $("#divShowProducts").css("display", "block");
-                    document.getElementById("divResult").style.display =
-                      "block";
-                  },
-                  true
-                );
-              }
-              $("#divproducts").css("display", "block");
-              $("#divShowProducts").css("display", "block");
-              $("#product-page-load").css("display", "none");
-            });
+                      },
+                      true
+                    );
+                  }
+                  $("#divproducts").css("display", "block");
+                  $("#divShowProducts").css("display", "block");
+                  $("#product-page-load").css("display", "none");
+                });
+              });
           });
 
           $scope.resetFilters = function () {
