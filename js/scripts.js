@@ -1,3 +1,6 @@
+var date = new Date().getFullYear();
+document.getElementById("currentYear").innerHTML = date;
+
 function search(){
 
     var category_id = 0,

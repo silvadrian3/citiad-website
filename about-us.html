@@ -87,6 +87,7 @@
                 placeholder="Search..."
                 aria-describedby="search-addon"
                 list="categorylist"
+                onChange="search()"
               />
               <span
                 class="input-group-addon"
@@ -327,10 +328,8 @@
             </ul>
           </div>
           <div class="col-md-10 cp_footer">
-            <span class="copyright"
-              >&copy;
-              
-              Citiad Promo &amp; Prints Co.
+            <span class="copyright">
+              &copy; <span id="currentYear"></span> Citiad Promo & Prints Co.
               <!-- Powered by <a href="http://www.quisi.net">quisi.net</a>-->
             </span>
           </div>
