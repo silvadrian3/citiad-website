@@ -121,6 +121,7 @@
                 placeholder="Search..."
                 aria-describedby="search-addon"
                 list="categorylist"
+                onChange="search()"
               />
               <span
                 class="input-group-addon"
@@ -202,12 +203,16 @@
                         ng-repeat="product in filtered = items | filter:search | startFrom:(currentPage-1)*entryLimit | limitTo:entryLimit"
                         ng-click="redirect(product.product_id)"
                       >
-                        <!-- <img ng-src="{{item.img_url + item.img_location  + item.img_filename}}" class="center-block img-responsive" alt="item.name" /> -->
                         <img
+                          ng-src="{{product.img_url + product.img_location  + product.img_filename}}"
+                          class="center-block img-responsive"
+                          alt="product.name"
+                        />
+                        <!-- <img
                           ng-src="{{product.loc_url + product.loc_base_dir + product.loc_src_dir + product.img_filename}}"
                           class="center-block img-responsive"
                           alt="{{item.name}}"
-                        />
+                        /> -->
 
                         <div class="portfolio-caption" style="padding: 10px">
                           <p class="product_name">{{ product.name }}</p>
@@ -268,10 +273,8 @@
               </ul>
             </div>
             <div class="col-md-10 cp_footer">
-              <span class="copyright"
-                >&copy;
-                
-                Citiad Promo &amp; Prints Co.
+              <span class="copyright">
+                &copy; <span id="currentYear"></span> Citiad Promo & Prints Co.
                 <!-- Powered by <a href="http://www.quisi.net">quisi.net</a>-->
               </span>
             </div>
